@@ -11,6 +11,7 @@
     "bluetooth",
     "network",
     "pulseaudio",
+    "memory",
     "cpu",
     "battery"
   ],
@@ -54,6 +55,12 @@
     "interval": 21600
   },
 
+  "memory": {
+    "interval": 5,
+    "format": "󰾆",
+    "tooltip-format": "{percentage}%",
+    "on-click": "omarchy-launch-or-focus-tui btop"
+  },
   "cpu": {
     "interval": 5,
     "format": "󰍛",
